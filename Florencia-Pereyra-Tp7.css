@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    background-color: rgb(255, 227, 179);
+}
+
+header {
+    background-color: rgb(233, 88, 55);
+}
+
+.menuRedes {
+    background-color: black;
+    opacity: 70%;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+}
+
+.face {
+    margin: 1rem;
+}
+
+.face img:hover {
+    transform: scale(1.5);
+}
+
+.face img {
+    width: 40px;
+    height: 40px;
+}
+
+.insta {
+    margin: 1rem;
+}
+
+.insta img:hover {
+    transform: scale(1.5);
+}
+
+.insta img {
+    width: 40px;
+    height: 40px;
+}
+
+.youtube {
+    margin: 1rem;
+}
+
+.youtube img:hover {
+    transform: scale(1.5);
+}
+
+.youtube img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.imagenPrincipal img {
+    width: 95%;
+    height: 200%;
+    margin-left: 40px;
+}
+
+.menuPrincipal {
+    background-color: rgb(29, 29, 27);
+    width: 80%;
+    height: 80px;
+    position: relative;
+    z-index: 5;
+    left: 150px;
+    bottom: 70px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+li a:hover{
+    color: blueviolet;
+}
