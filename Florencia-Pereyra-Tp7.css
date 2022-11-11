@@ -89,3 +89,11 @@ li a {
 li a:hover{
     color: blueviolet;
 }
+
+@media screen  and (max-width:300px) {
+    .menuRedes {
+        flex-direction: column;
+
+    }
+    
+}
