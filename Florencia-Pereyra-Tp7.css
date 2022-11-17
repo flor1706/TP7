@@ -93,3 +93,34 @@ header {
 .menuPrincipal li a:hover {
     color: blueviolet;
 }
+
+@media screen and (max-width:700px) {
+    body {
+        width: 20rem;
+        background-color: blueviolet;
+    }
+
+    .menuRedes {
+        background-color: aquamarine;
+        flex-direction: row;
+        height: max-content;
+        position: fixed;
+    }
+
+
+    .imagenPrincipal img {
+        width: 25rem;
+        height: 30rem;
+        margin: 0.5rem;
+    }
+
+    .menuPrincipal {
+        left: 5rem;
+        bottom: 3rem;
+    }
+
+    .menuPrincipal ul {
+        flex-direction: row;
+        padding: 0.1rem;
+    }
+}
